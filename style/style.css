@@ -289,7 +289,8 @@ padding: 15px;
     padding-top: 40px;
     box-shadow: 0 0 20px var(--main-color);
     border-radius: 10px;
-    margin-left: 20px;
+    margin-left: 50px;
+    
 }
 
 .row {
@@ -372,7 +373,7 @@ padding: 15px;
     padding: 20px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    margin-left: 20px;
+    margin-left: 50px;
     text-align: center;
     transition: box-shadow 0.3s ease;
     box-shadow: 0 0 20px var(--main-color);
@@ -430,7 +431,7 @@ padding: 15px;
     color: var(--main-color);
 }
 .button{
-    margin-top: 5px;
+    margin:40px;
 }
 
 
@@ -513,6 +514,14 @@ padding: 15px;
     justify-content: center;
     text-align: center;
     height: 30rem;
+  }
+
+  .contact-info>h2{
+    font-size: 30px;
+
+  }
+  .email-icon i{
+    font-size: 40px;
   }
   
   .contact-info h2 {
