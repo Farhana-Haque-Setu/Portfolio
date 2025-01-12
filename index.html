@@ -20,7 +20,6 @@
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#Project">Project</a>
-            <a href="#testimonial">Testimonial</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -31,10 +30,14 @@
             <img src="./src/my.jpeg" alt="Profile Picture of Farhana Haque">
         </div>
         <div class="home-content">
-            <h3>Hello, Myself</h3>
-            <h1>Farhana Haque</h1>
-            <h3>And I am a <span class="multi_text">Web Developer</span></h3>
-            <p>I'm a web designer with extensive experience of over 1 year. My expertise is building websites and more...</p>
+           
+    <div class="title">
+        <div class="wrappers">
+            <div class="static_text">I 'm a</div>
+            <div class="dynamic-text"><span>Web developer</span></div>
+        </div>
+    </div>
+         <p>I'm a web designer with extensive experience of over 1 year. My expertise is building websites and more...</p>
             <div id="social_media">
                 <a href="#"><i class='bx bxl-linkedin'></i></a>
                 <a href="#"><i class='bx bxl-github'></i></a>
@@ -75,8 +78,9 @@
                     </div>
                 </div>
 
+                <!-- skill part -->
 
-                <div class="skills padd-15">
+                    <div class="skills padd-15">
                     <div class="wrapper">
                         <h3>My Skills</h3>
                         <div class="skills-wrapper">
@@ -89,7 +93,6 @@
                                     <span class="html"></span>
                                 </div>
                             </div>
-                
                 
                             <div class="bar">
                                 <div class="info">
@@ -125,7 +128,7 @@
                 </div>
 
 
-
+                <!-- Qualification part -->
 
                 <div class="qualification">
                     <h3>Qualification</h3>
@@ -153,11 +156,10 @@
         </div>
     </section>
 
+    <!-- project Section -->
+ <section id="Project" class="Project">
 
-    <section id="Project" class="Project">
-
-       
-        <div class="project-show">
+     <div class="project-show">
             <div class="project-item">
                 <img src="./src/project1.png" alt="Project 1">
                 <p>Skin Care E-commerce site</p>
@@ -183,6 +185,27 @@
                 <p>Build with:HTML <br>CSS <br>JAVASCRIPT</p>
             </div>
         </div>
+    </section>
+    
+    
+    <!-- contact Section -->
+
+<section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-info">
+              <h2>Find Me</h2>
+              <p><i class="email-icon"></i> farhanahaque1114@gmail.com</p>
+              <p><i class="phone-icon"></i> Phone: 01916896157</p>
+            </div>
+            <form class="contact-form">
+              <input class="name"type="text" placeholder="Your Name" required>
+              <input class="email"type="email" placeholder="Your Email" required>
+              <input class="subject"type="text" placeholder="Subject" required>
+              <textarea  class="message"placeholder="Message" rows="5" required></textarea>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+
     </section>
     
 </body>
